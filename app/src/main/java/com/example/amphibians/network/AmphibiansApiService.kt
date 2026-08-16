@@ -18,7 +18,7 @@ interface AmphibiansApiService{
 
 class DefaultAmphibiansContainer: AmphibiansContainer {
 
-    private val BASE_URL = "https://android-kotlin-fun-mars-server.appspot.com"
+    private val BASE_URL = "https://android-kotlin-fun-mars-server.appspot.com/"
 
     private val retrofit = Retrofit.Builder()
         .addConverterFactory(Json.asConverterFactory("application/json".toMediaType()))
