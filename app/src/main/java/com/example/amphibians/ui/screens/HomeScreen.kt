@@ -63,7 +63,7 @@ fun HomeScreen(
                     )
                 }
             }
-        is AmphibiansViewModel.AmphibiansUiState.Error -> ErrorScreen(retryAction = retryAction)
+        is AmphibiansViewModel.AmphibiansUiState.Error -> ErrorScreen(retryAction = retryAction, modifier = modifier.fillMaxSize())
 
     }
 }
